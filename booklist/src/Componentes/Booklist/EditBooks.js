@@ -1,9 +1,10 @@
 import React from 'react'
+import "./EditBooks.css"
 
 function EditBooks() {
   return (
     <div className='EditBooks'>
-        <h1>EditBooks</h1>
+        <h1 className='HeadingEditBook'>EditBooks</h1>
         <div className='Titlediv'>
             <label >Title</label>
         <input className='Title' type="text" placeholder='Title of the Book'></input>

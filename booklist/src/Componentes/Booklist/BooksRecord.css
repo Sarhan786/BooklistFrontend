@@ -1,0 +1,49 @@
+.BooksRecord{
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: lightslategrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.BookData{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    background: lightcoral;
+    font-size: 21px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Buttons{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BookData li{
+    height: 50px;
+    border-bottom: 0.5px solid gray;
+}
+
+.Buttons button{
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+.Buttons a {
+    margin: 0%;
+    width: fit-content;
+}
