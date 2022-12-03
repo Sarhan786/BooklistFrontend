@@ -1,9 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function login() {
+function Login() {
   return (
-    <div>login</div>
+    <div className='LoginPage'>
+        <h1>Login</h1>
+        <input
+            className="input_fields"
+            type="text"
+            placeholder="UserName"
+          ></input>
+          <input
+            className="input_fields"
+            type="Password"
+          ></input>
+          <Link to="/Booklist"><button type="submit">Login</button></Link>
+          <Link to="/Signup"><button type="submit">Signup</button></Link>
+    </div>
   )
 }
 
-export default login
+export default Login
