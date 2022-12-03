@@ -16,7 +16,7 @@ function Addbook() {
 
   let submitHandle =()=>{
     console.log(BookData);
-    axios.post("http://localhost:5050/booklist/",BookData).then((res)=>{
+    axios.post("https://booklist-backend.onrender.com//booklist/",BookData).then((res)=>{
       alert('Book is added');
       Navigator("/Booklist");
     })

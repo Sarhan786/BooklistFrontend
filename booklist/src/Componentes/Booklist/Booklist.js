@@ -8,7 +8,7 @@ function Booklist() {
   const Navigator = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:5050/booklist/").then((res) => {
+    axios.get("https://booklist-backend.onrender.com/booklist/").then((res) => {
       console.log(res.data.BooksData);
       setBooks(res.data.BooksData);
     });

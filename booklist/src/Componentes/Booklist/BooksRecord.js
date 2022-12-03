@@ -29,7 +29,7 @@ function BooksRecord() {
         <li> Description : {Bookrecord.description}</li>
       </ol>
       <div className="Buttons">
-        <button>Delete Book</button>
+        <button onClick={()=>{alert('your book is deleted')}}>Delete Book</button>
         <Link to="/EditBooks">
           <button>Edit Book</button>
         </Link>
